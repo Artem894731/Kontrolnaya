@@ -238,9 +238,6 @@ int main()
 
 	//Task 5 
 	std::cout << "Task5" << '\n';
-
-
-
 	int rows{};
 	int cols{};
 	std::cout << "Enter count rows: ";
@@ -248,7 +245,7 @@ int main()
 	std::cout << "Enter count cols: ";
 	std::cin >> cols;
 
-	if (rows >= 1 && rows <= 10 && cols >= 1 && cols <= 10) {
+	if (rows > 1 && rows < 10 && cols >= 1 && cols <= 10) {
 		int index_row{};
 		int index_col{};
 
