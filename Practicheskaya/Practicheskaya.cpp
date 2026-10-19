@@ -262,7 +262,7 @@ int main()
 		memory_deallocation(matrix, rows, cols);
 	}
 	else {
-		std::cout << "rows and cols must be in [1, 10]" << '\n';
+		std::cout << "rows and cols must be > 1 and < 10" << '\n';
 	}
 }
 
