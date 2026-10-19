@@ -245,7 +245,7 @@ int main()
 	std::cout << "Enter count cols: ";
 	std::cin >> cols;
 
-	if (rows > 1 && rows < 10 && cols >= 1 && cols <= 10) {
+	if (rows > 1 && rows < 10 && cols > 1 && cols < 10) {
 		int index_row{};
 		int index_col{};
 
